@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VLibras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Acessibilidade com VLibras</h1>
+    </header>
+
+    <main>
+        <div class="image-container">
+            <div class="image-item">
+                <img src="https://www.coloramaesmaltes.com.br/-/media/Project/Loreal/Brand-Sites/Essie/MASTER/DMI/products/2024/Divertidamente-2/Verde-de-Inveja/Imagem-packshot-Verde-de-Inveja.jpg?h=530&hash=A159442E55E3884FC6B8FFE8734A1C796FCE179C" alt="">
+                <p>Esmalte Colorama da nova coleção Divertidamente 2, verde de inveja é um lindo tom de verde militar, cor e brilho intenso e secagem rapída.</p>
+            </div>
+            <div class="image-item">
+                <img src="https://www.coloramaesmaltes.com.br/-/media/Project/Loreal/Brand-Sites/Essie/MASTER/DMI/products/2024/Divertidamente-2/Vermelho-Furia/Imagem-packshot-Vermelho-Furia.jpg?h=530&hash=65691F891928C8C9099C05A720D472819AB0FBA0" alt="">
+                <p>Esmalte Colorama da nova coleção Divertidamente 2, vermelho fúria sendo um tom de vermelho cintilante, cor e brilho intenso e secagem rapída.</p>
+            </div>
+            <div class="image-item">
+                <img src="https://www.coloramaesmaltes.com.br/-/media/Project/Loreal/Brand-Sites/Essie/MASTER/DMI/products/2024/Divertidamente-2/Chorando-Purpurina/Imagem-packshot-Chorando-Purpurina.jpg?h=530&hash=6018EA14FDB05F5625F6019A82DB4543D62C3BE0" alt="">
+                <p>Esmalte Colorama da nova coleção Divertidamente 2, chorando purpurina é um lindo e delicado tom de transparente com partículas de brilho, longa duração e secagem rapída.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 - Site desenvolvido por Marina Fonseca</p>
+        <!-- Código do VLibras -->
+<!-- Início do código relacionado ao plugin VLibras -->
+<div vw class="enabled">
+    <!-- Esta div possui o atributo customizado 'vw' e a classe 'enabled', que  são usados pelo plugin VLibras para identificar e estilizar o contêiner principal do widget. -->
+   
+    <div vw-access-button class="active"></div>
+    <!-- Esta div representa o botão de acesso ao VLibras. Tem um atributo customizado 'vw-access-button' e a classe 'active', indicando que o botão está ativo e visível. -->
+   
+    <div vw-plugin-wrapper>
+        <!-- Esta div atua como um contêiner para o plugin VLibras. O atributo 'vw-plugin-wrapper' provavelmente é utilizado para o plugin identificar onde deve ser inserido seu conteúdo. -->
+       
+        <div class="vw-plugin-top-wrapper"></div>
+        <!-- Esta div interna pode ser utilizada para posicionar elementos ou funcionalidades adicionais do plugin VLibras na parte superior do widget. -->
+    </div>
+</div>
+ 
+<!-- Inclusão do script do plugin VLibras -->
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<!-- Este script carrega o arquivo JavaScript do plugin VLibras diretamente do servidor do VLibras. -->
+ 
+<script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+    <!-- Este script inicializa o widget VLibras. A função 'VLibras.Widget' é chamada com a URL base do app VLibras, configurando o widget no site. -->
+</script>
+    </footer>
+</body>
+</html>
